@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
     res.send('Hello World!')
 })
 
-app.post('/kyc', (req, res) => {
+app.post('/', (req, res) => {
     console.log(req.body)
     res.sendStatus(200)
 })
